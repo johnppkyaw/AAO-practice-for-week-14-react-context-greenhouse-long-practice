@@ -8,7 +8,6 @@ import { useTheme } from '../../context/ThemeContext';
 
 function Greenhouse() {
   const { themeName } = useTheme();
-  console.log(themeName);
 
   return (
     <section>
